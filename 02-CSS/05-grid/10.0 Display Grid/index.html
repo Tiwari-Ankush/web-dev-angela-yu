@@ -7,10 +7,46 @@
     /* Write your code here */
     /* Each square should be 100px by 100px */
     /* My colours for white: #f0d9b5, black: #b58863 */
+    .container {
+      margin: 50px;
+
+      border: 3px solid black;
+      width: 800px;
+      /* display: grid; */
+      display: grid;
+      flex-grow: 1;
+      flex-shrink: 1;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .white {
+      height: 100px;
+      width: 100px;
+      background-color: #f8f5f1;
+    }
+
+    .black {
+      height: 100px;
+      width: 100px;
+      background-color: #0d0803;
+    }
+
+    @media (max-width:900px) {
+      body {
+         display: none;  
+         
+      }}
+
+      h2 {
+        text-align: center;
+        margin-top: 50px;
+      }
   </style>
 </head>
 
 <body>
+  <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Hello, Welcome to my ChessBoard</h2>
   <div class="container">
     <div class="white"></div>
     <div class="black"></div>
