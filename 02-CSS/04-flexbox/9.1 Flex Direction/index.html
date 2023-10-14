@@ -11,9 +11,16 @@
   -->
   <style>
     .container {
+      padding: 20px;
       color: white;
-      border: 5px solid gold;
-      display: flex;
+      /* border: 5px solid gold; */
+      display: inline-flex;
+      flex-direction: column;
+      /* flex-direction:column-reverse; */
+      gap: 8px;
+    }
+    .container > * {
+      flex-basis: 100px;
     }
 
     /*
@@ -21,13 +28,13 @@ Select all the elements that are the direct
 children of the .container class.
     */
 
-    .red {background-color: #eb4d4b;}
-    .orange {background-color: #f0932b;}
-    .yellow {background-color: #f6e58d;}
-    .green {background-color: #6ab04c;}
-    .blue {background-color: #4834d4;}
-    .indigo {background-color: #30336b;}
-    .purple {background-color: #be2edd;}
+    .red {background-color: #eb4d4b;text-align: center;}
+    .orange {background-color: #f0932b;text-align: center;}
+    .yellow {background-color: #f6e58d;text-align: center;}
+    .green {background-color: #6ab04c;text-align: center;}
+    .blue {background-color: #4834d4;text-align: center;}
+    .indigo {background-color: #30336b;text-align: center;}
+    .purple {background-color: #be2edd;text-align: center;}
   </style>
 </head>
 
