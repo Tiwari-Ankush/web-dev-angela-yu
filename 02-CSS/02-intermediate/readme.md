@@ -107,6 +107,25 @@ Combining selectors in CSS allows you to target specific elements based on vario
    }
    ```
 
+7.**Chaining Selectors:**
+Chaining selectors, also known as "selector chaining" or "combining selectors," is a way to target elements with specific attributes or combinations of classes and IDs. It involves using multiple selectors without any space or delimiter between them.
+
+Here's an example of selector chaining:
+
+css
+Copy code
+.button.primary {
+  background-color: blue;
+  color: white;
+}
+In this example, the selector .button.primary will target elements that have both the class "button" and the class "primary." It applies the specified styles to elements that meet this criteria.
+
 Combining selectors gives you fine-grained control over which elements on a web page receive specific styles. This flexibility is useful for creating complex and responsive designs.
 
+
+
+
+
+CSS POsitioning:
+https://appbrewery.github.io/css-positioning/
 
