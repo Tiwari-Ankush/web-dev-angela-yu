@@ -5,12 +5,20 @@
   <title>CSS Positioning Exercise</title>
   <style>
     /* Write your code here */
+    .black-box{
+      background-color: black;
+      position: fixed;
+      margin: 50px 0 0 50px;
+      height: 500px;
+      width: 700px;
+    }
     .blue-box{
       background-color: blue;
       height: 300px;
       width: 500px;
       position: relative;
-      margin:200px 0 0 200px;
+      margin:250px 0 0 100px;
+    
 
     }
     .red-circle{
@@ -21,13 +29,17 @@
       border-radius: 50%;
       margin-left: 250px;
       margin-top: 180px;
+      z-index: -1;
     }
   </style>
 </head>
 
 <body>
-  <div class="blue-box">
-    <div class="red-circle">
+  <div class="black-box">
+
+    <div class="blue-box">
+      <div class="red-circle">
+      </div>
     </div>
   </div>
 
