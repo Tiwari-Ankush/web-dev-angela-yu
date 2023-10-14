@@ -9,3 +9,6 @@ https://appbrewery.github.io/css-display/
 
 flexbox:
 https://appbrewery.github.io/flexboxfroggy/
+
+flexbox exercise:
+https://appbrewery.github.io/flexbox-sizing-exercise/

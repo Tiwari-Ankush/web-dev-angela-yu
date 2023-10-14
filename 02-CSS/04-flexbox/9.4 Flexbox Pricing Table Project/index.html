@@ -10,10 +10,22 @@
     body {
       font-family: 'Sono', sans-serif;
     }
+    .pricing-plan {
+      flex: 1;
+      max-width: 400px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      border: 3px solid yellow;
+      text-align: center;
+    }
 
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
-      
+      .pricing-container {
+        flex-direction: row;
+        height: 100%;
+      }
     }
   </style>
 </head>

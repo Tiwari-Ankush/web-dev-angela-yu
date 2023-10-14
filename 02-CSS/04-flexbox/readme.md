@@ -1,7 +1,8 @@
 FLEXBOX:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-
+flexbox game>>
+https://appbrewery.github.io/flexboxfroggy/
 
 display flex:
 
@@ -128,6 +129,104 @@ You can choose the appropriate `flex-direction` value to achieve the desired lay
 - The `.flex-item` is set to `flex: 1;`, making it flexible and allowing it to share available space equally with other flex items.
 
 This example demonstrates the default `row` direction and equal sharing of space among flex items. You can change the `flex-direction` to achieve different layouts (e.g., `column` for a vertical layout) and adjust the `flex` property to control item sizing and flexibility. Flexbox is a versatile tool for creating responsive and dynamic layouts in CSS.
+
+
+
+**flexbox sizing**
+Flex sizing in CSS flexbox is achieved by using the `flex` property, which allows you to control how much space each flex item should take up within a flex container. The `flex` property consists of three values: `flex-grow`, `flex-shrink`, and `flex-basis`. Here's a detailed explanation with code:
+
+```css
+.flex-item {
+  flex: <flex-grow> <flex-shrink> <flex-basis>;
+}
+```
+
+- `flex-grow`: This value determines how much an item should grow if there's extra space available in the flex container. It's a unitless number, and items with a higher `flex-grow` value grow more.
+- `flex-shrink`: This value determines how much an item should shrink if there's not enough space in the container. It's also a unitless number, and items with a higher `flex-shrink` value shrink more.
+- `flex-basis`: This value sets the initial size of the item before distribution. You can specify it using percentages, pixels, or other length units.
+
+Here's a more detailed code example:
+
+```html
+<div class="flex-container">
+  <div class="flex-item" style="flex: 1 1 200px;">Item 1</div>
+  <div class="flex-item" style="flex: 2 1 100px;">Item 2</div>
+  <div class="flex-item" style="flex: 1 2 150px;">Item 3</div>
+</div>
+```
+
+In this example:
+
+- `.flex-item` elements have different `flex` values:
+  - The first item (`Item 1`) has `flex: 1 1 200px;`, meaning it can grow and shrink equally and starts with a base size of 200px.
+  - The second item (`Item 2`) has `flex: 2 1 100px;`, indicating it can grow twice as much as it can shrink and starts with a base size of 100px.
+  - The third item (`Item 3`) has `flex: 1 2 150px;`, meaning it can shrink twice as much as it can grow and starts with a base size of 150px.
+
+These values allow you to control how items within the flex container respond to changes in available space. Items with higher `flex-grow` values will expand more when there's extra space, and items with higher `flex-shrink` values will shrink more when space is limited. The `flex-basis` value sets the initial size for each item.
+
+
+
+**FLEX-GROW AND FLEX-SHRINK**
+
+exercise link >>
+https://appbrewery.github.io/flexbox-sizing-exercise/
+
+Certainly, here's an example that demonstrates how to use `flex-grow` and `flex-shrink` in CSS flexbox:
+
+```html
+<div class="flex-container">
+  <div class="flex-item item1">Item 1</div>
+  <div class="flex-item item2">Item 2</div>
+  <div class="flex-item item3">Item 3</div>
+</div>
+```
+
+```css
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  flex-basis: 100px; /* Initial size for all items */
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #333;
+}
+
+.item1 {
+  flex-grow: 1; /* This item can grow */
+  flex-shrink: 1; /* This item can shrink */
+  background-color: lightblue;
+}
+
+.item2 {
+  flex-grow: 2; /* This item can grow twice as much */
+  flex-shrink: 1; /* This item can shrink */
+  background-color: lightcoral;
+}
+
+.item3 {
+  flex-grow: 1; /* This item can grow */
+  flex-shrink: 2; /* This item can shrink twice as much */
+  background-color: lightgreen;
+}
+```
+
+In this example:
+
+- The `.flex-container` is a flex container that arranges the child elements in a row (the default `flex-direction`).
+- Each `.flex-item` has an initial size of 100px (`flex-basis`) and some padding and margin.
+- The `flex-grow` property determines how much an item can grow. In this example, `item1` can grow, `item2` can grow twice as much, and `item3` can grow. 
+- The `flex-shrink` property controls how much an item can shrink. `item1` can shrink, `item2` can shrink, and `item3` can shrink twice as much.
+- The `background-color` is set to distinguish each item visually.
+
+With these settings, when there is extra space, `item2` will grow twice as much as the other items, and when space is limited, `item3` will shrink twice as much as the others. This demonstrates the use of `flex-grow` and `flex-shrink` in flexbox layouts.
+
+
+
+
+
+
 
 
 
