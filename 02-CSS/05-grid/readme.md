@@ -138,3 +138,56 @@ You can combine these sizing options within the same grid for a fine-grained con
 
 
 
+**grid placement**
+CSS Grid allows precise control over grid item placement using the `grid-row` and `grid-column` properties. Here's how to place grid items using code:
+
+```html
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+</div>
+```
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  gap: 10px;
+}
+
+.item1 {
+  grid-column: 1 / 3; /* Starts at column 1 and ends at column 3 */
+  grid-row: 1 / 3;    /* Starts at row 1 and ends at row 3 */
+}
+
+.item2 {
+  grid-column: 3 / 4; /* Starts at column 3 and ends at column 4 */
+  grid-row: 1 / 2;    /* Starts at row 1 and ends at row 2 */
+}
+
+.item3 {
+  grid-column: 2 / 4; /* Starts at column 2 and ends at column 4 */
+  grid-row: 2 / 3;    /* Starts at row 2 and ends at row 3 */
+}
+
+.item4 {
+  grid-column: 1 / 2; /* Starts at column 1 and ends at column 2 */
+  grid-row: 2 / 3;    /* Starts at row 2 and ends at row 3 */
+}
+```
+
+In this example:
+
+- The `.grid-container` creates a 3x2 grid with specific row and column sizing and a gap between items.
+- `.item1`, `.item2`, `.item3`, and `.item4` are grid items.
+- `grid-column` and `grid-row` properties are used to precisely position each item within the grid. The values indicate where the item starts and ends in terms of rows and columns.
+
+This code places the four grid items in specific positions within the grid, allowing for fine-grained control over their placement. You can adjust the `grid-column` and `grid-row` values to place items exactly where you want within the grid.
+
+
+
+
+
