@@ -55,29 +55,33 @@ Bootstrap makes web development faster and more efficient by providing a solid f
 **bootstrap layouts and containers**
 Bootstrap offers a wide range of layouts and components that make it easier to build responsive and visually appealing web applications. Here's an overview of some of the layouts and components provided by Bootstrap:
 
-**Layouts:**
+
+***Layouts:***
 
 1. **Grid System:** Bootstrap's responsive grid system allows you to create flexible and dynamic layouts with rows and columns. You can use classes like `container`, `row`, and `col` to structure your content.
 
 2. **Containers:** Bootstrap provides different container classes, such as `.container`, `.container-fluid`, and `.container-sm`, to control the width of your layout.
 
-**Navigation:**
+
+***Navigation:***
 
 3. **Navbar:** Bootstrap's navbar component helps you create responsive navigation bars with various options for navigation links, dropdowns, and more.
 
 4. **Pagination:** You can easily add pagination to your content with Bootstrap's pagination component.
 
-**Typography:**
+
+***Typography:***
 
 5. **Headings and Text:** Bootstrap offers typography styles with various headings (h1 to h6) and text classes, making it easy to style your content.
 
-**Forms:**
+
+***Forms:***
 
 6. **Forms:** Bootstrap provides styling for forms, including form controls, input groups, and custom form layouts.
 
 7. **Buttons:** Bootstrap offers a variety of button styles, sizes, and colors for your forms.
 
-**Components:**
+***Components:***
 
 8. **Alerts:** You can use alert components for displaying important messages to users.
 
@@ -109,7 +113,7 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 
 
 
-**Bootstrap Grid System:**
+***Bootstrap Grid System:***
 ```html
 <div class="container">
   <div class="row">
@@ -121,7 +125,7 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 ```
 
 
-**Bootstrap Navbar:**
+***Bootstrap Navbar:***
 ```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">My Website</a>
@@ -145,7 +149,7 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 ```
 
 
-**Bootstrap Buttons:**
+***Bootstrap Buttons:***
 ```html
 <button type="button" class="btn btn-primary">Primary Button</button>
 <button type="button" class="btn btn-secondary">Secondary Button</button>
@@ -154,7 +158,7 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 
 
 
-**Bootstrap Alerts:**
+***Bootstrap Alerts:***
 ```html
 <div class="alert alert-success" role="alert">
   This is a success alert.
@@ -168,7 +172,7 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 ```
 
 
-**Bootstrap Cards:**
+***Bootstrap Cards:***
 ```html
 <div class="card">
   <img src="image.jpg" class="card-img-top" alt="Image">
