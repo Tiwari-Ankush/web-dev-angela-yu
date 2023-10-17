@@ -178,6 +178,6 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 </div>
 ```
 
-These code examples demonstrate the use of Bootstrap layouts and components. You can further customize and extend these components to fit your specific project requirements. Make sure to include the Bootstrap CSS and JavaScript files in your project for them to work correctly.
+These code examples demonstrate the use of Bootstrap layouts and components. You can further customize and extend these components to fit your specific project requirements.Make sure to include the Bootstrap CSS and JavaScript files in your project for them to work correctly.
 
 
