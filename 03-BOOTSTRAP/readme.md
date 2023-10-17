@@ -107,8 +107,9 @@ These are just a few examples of Bootstrap's layouts and components. Bootstrap's
 
 Certainly, here are some examples of Bootstrap layouts and components with code snippets:
 
-**Bootstrap Grid System:**
 
+
+**Bootstrap Grid System:**
 ```html
 <div class="container">
   <div class="row">
@@ -119,8 +120,8 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 </div>
 ```
 
-**Bootstrap Navbar:**
 
+**Bootstrap Navbar:**
 ```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">My Website</a>
@@ -143,16 +144,17 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 </nav>
 ```
 
-**Bootstrap Buttons:**
 
+**Bootstrap Buttons:**
 ```html
 <button type="button" class="btn btn-primary">Primary Button</button>
 <button type="button" class="btn btn-secondary">Secondary Button</button>
 <button type="button" class="btn btn-danger">Danger Button</button>
 ```
 
-**Bootstrap Alerts:**
 
+
+**Bootstrap Alerts:**
 ```html
 <div class="alert alert-success" role="alert">
   This is a success alert.
@@ -165,8 +167,8 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 </div>
 ```
 
-**Bootstrap Cards:**
 
+**Bootstrap Cards:**
 ```html
 <div class="card">
   <img src="image.jpg" class="card-img-top" alt="Image">
