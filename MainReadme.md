@@ -26,3 +26,13 @@ https://appbrewery.github.io/gridgarden/
 
 bootstrap practice
 https://appbrewery.github.io/bootstrap-layout/
+
+
+colorhunt
+https://colorhunt.co/
+
+adobe color wheel
+https://auth.services.adobe.com/en_US/deeplink.html#/deeplink
+
+daily ui design challege website
+https://www.dailyui.co/
