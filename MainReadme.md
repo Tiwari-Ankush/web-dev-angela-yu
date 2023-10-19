@@ -36,3 +36,8 @@ https://auth.services.adobe.com/en_US/deeplink.html#/deeplink
 
 daily ui design challege website
 https://www.dailyui.co/
+
+
+JAVASCRIPT
+compiled vs interpreted yt link
+https://www.youtube.com/watch?v=_C5AHaS1mOA&ab_channel=BitsandBytesTVO
