@@ -1,4 +1,4 @@
-**BOOTSTRAP**
+***BOOTSTRAP***
 CDN= content delivery network
 **Bootstrap** is a popular open-source front-end framework for building responsive and visually appealing web applications and websites. It was initially created by Twitter developers Mark Otto and Jacob Thornton, and it was released in 2011. The project was originally called "Twitter Blueprint" but was later renamed Bootstrap.
 
@@ -20,6 +20,7 @@ To use Bootstrap in your web development projects, follow these steps:
 
 1. **Include Bootstrap in Your Project:**
    - You can download Bootstrap from the official website (https://getbootstrap.com/), or you can use a Content Delivery Network (CDN) to include it in your project.
+   - 
 
 2. **Link Bootstrap CSS and JavaScript:**
    - In your HTML file, include the Bootstrap CSS and JavaScript files in the `<head>` section of your document.
