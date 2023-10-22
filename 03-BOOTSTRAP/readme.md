@@ -25,24 +25,24 @@ To use Bootstrap in your web development projects, follow these steps:
 2. **Link Bootstrap CSS and JavaScript:**
    - In your HTML file, include the Bootstrap CSS and JavaScript files in the `<head>` section of your document.
    
-   ```html
+   
    <!-- Add Bootstrap CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
    <!-- Add Bootstrap JavaScript (optional) -->
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-   ```
+   
 
 3. **Use Bootstrap Classes and Components:**
    - Apply Bootstrap classes to your HTML elements to utilize its grid system, styling, and components. For example, you can use classes like `container`, `row`, `col`, and various component classes.
 
-   ```html
+   
    <div class="container">
      <div class="row">
        <div class="col-md-6">Content in the first column</div>
        <div class="col-md-6">Content in the second column</div>
      </div>
    </div>
-   ```
+   
 
 4. **Customize and Extend:**
    - Customize Bootstrap by modifying variables and styles to match your project's requirements. You can also extend Bootstrap's functionality by adding your own CSS and JavaScript.
@@ -113,9 +113,8 @@ These are just a few examples of Bootstrap's layouts and components. Bootstrap's
 Certainly, here are some examples of Bootstrap layouts and components with code snippets:
 
 
-
 ***Bootstrap Grid System:***
-```html
+
 <div class="container">
   <div class="row">
     <div class="col-md-4">Column 1</div>
@@ -123,11 +122,11 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
     <div class="col-md-4">Column 3</div>
   </div>
 </div>
-```
+
 
 
 ***Bootstrap Navbar:***
-```html
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">My Website</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -147,20 +146,20 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
     </ul>
   </div>
 </nav>
-```
+
 
 
 ***Bootstrap Buttons:***
-```html
+
 <button type="button" class="btn btn-primary">Primary Button</button>
 <button type="button" class="btn btn-secondary">Secondary Button</button>
 <button type="button" class="btn btn-danger">Danger Button</button>
-```
+
 
 
 
 ***Bootstrap Alerts:***
-```html
+
 <div class="alert alert-success" role="alert">
   This is a success alert.
 </div>
@@ -170,11 +169,11 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
 <div class="alert alert-warning" role="alert">
   This is a warning alert.
 </div>
-```
+
 
 
 ***Bootstrap Cards:***
-```html
+
 <div class="card">
   <img src="image.jpg" class="card-img-top" alt="Image">
   <div class="card-body">
@@ -183,7 +182,7 @@ Certainly, here are some examples of Bootstrap layouts and components with code 
     <a href="#" class="btn btn-primary">Learn More</a>
   </div>
 </div>
-```
+
 
 These code examples demonstrate the use of Bootstrap layouts and components. You can further customize and extend these components to fit your specific project requirements.Make sure to include the Bootstrap CSS and JavaScript files in your project for them to work correctly.
 
