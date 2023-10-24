@@ -2,8 +2,9 @@
 CDN= content delivery network
 **Bootstrap** is a popular open-source front-end framework for building responsive and visually appealing web applications and websites. It was initially created by Twitter developers Mark Otto and Jacob Thornton, and it was released in 2011. The project was originally called "Twitter Blueprint" but was later renamed Bootstrap.
 
-**Key Features and Components of Bootstrap:**
 
+
+**Key Features and Components of Bootstrap:**
 1. **Grid System:** Bootstrap provides a 12-column grid system for creating responsive layouts. It allows you to design flexible and consistent page structures.
 
 2. **Pre-Designed UI Components:** Bootstrap includes a wide range of pre-styled UI components such as navigation bars, buttons, forms, modals, and more. These components can be customized and easily integrated into your projects.
