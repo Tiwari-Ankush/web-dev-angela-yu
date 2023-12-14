@@ -274,4 +274,5 @@ Enterprise Usage: Some legacy systems and enterprise applications may still rely
      console.log(result); // Output: 9
      ```
 
+
 These examples demonstrate the creation and calling of functions, passing parameters and arguments, and returning values from functions in JavaScript. Functions are a fundamental building block for structuring and organizing code.
