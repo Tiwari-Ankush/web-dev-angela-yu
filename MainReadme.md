@@ -43,3 +43,9 @@ https://www.dailyui.co/
 JAVASCRIPT
 compiled vs interpreted yt link
 https://www.youtube.com/watch?v=_C5AHaS1mOA&ab_channel=BitsandBytesTVO
+
+
+
+Code minifier:
+https://www.minifier.org/
+
