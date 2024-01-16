@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "pkg": "^5.8.1",
+    "sillyname": "^0.1.0",
     "superheroes": "^3.0.0"
   },
   "keywords": []
