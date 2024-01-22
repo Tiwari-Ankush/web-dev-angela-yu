@@ -3,7 +3,8 @@ import morgan from "morgan";
 
 const app = express();
 const port = 3000;
-app.use(morgan("combined"));
+app.use(morgan("tiny"));
+// app.use(morgan("combined"));
 
 app.get("/", (req, res) => {
   res.send("Hello");
