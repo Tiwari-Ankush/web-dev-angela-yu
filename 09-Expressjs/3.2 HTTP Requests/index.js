@@ -3,11 +3,11 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("<h1>Hello</h1>");
+  res.send("<h1>Hello ankush tiwari</h1>");
 });
 
 app.get("/about", (req, res) => {
-  res.send("<h1>About Me</h1><p>My name is Angela</p>");
+  res.send("<h1>About Me</h1><p>My name is Ankush tiwari</p>");
 });
 
 app.get("/contact", (req, res) => {
