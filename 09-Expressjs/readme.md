@@ -33,3 +33,10 @@ waht are basically /endpoints ?
 
 HTTP responses Status Codes in short?
 
+
+what is middleware in expressjs?
+
+what is basically a Body parser?
+
+what is custom middleware? what is "morgan"?
+
