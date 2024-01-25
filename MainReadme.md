@@ -6,7 +6,6 @@ Full Stack Web. Dev Course of Angela yu Udemy
 IMAGE USING PURE HTML AND CSS:DIANA ADRIANNE
 https://diana-adrianne.com/purecss-lace/
 
-
 css display
 https://appbrewery.github.io/css-display/
 
@@ -49,4 +48,6 @@ https://www.youtube.com/watch?v=_C5AHaS1mOA&ab_channel=BitsandBytesTVO
 
 Code minifier:
 https://www.minifier.org/
+
+
 
