@@ -14,5 +14,8 @@ what is jsx and babel basically?
 
 default id of react application is "root". why?
 
+
 what is react-dom in reactjs?
+
+
 
