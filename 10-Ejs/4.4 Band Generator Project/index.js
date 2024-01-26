@@ -13,9 +13,11 @@ const port = 3000;
 //Hint: Google to find out how to get the current year using JS.
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   //Step 1 - Make the get route work and render the index.ejs file.
+  res.render("index.ejs");
 });
 
 app.post("/submit", (req, res) => {
@@ -26,6 +28,14 @@ app.post("/submit", (req, res) => {
   //scroll down to see the two arrays.
   //2. Send the index.ejs as a response and add the adjective and noun to the res.render
   //3. Test to make sure that the random words display in the h1 element in index.ejs
+
+  const randAdj = adj[Math.floor(Math.random()*adj.length)];
+  const randNoun = noun[Math.floor(Math.random() * noun.length)];
+  res.render("index.ejs",{
+    adj:randAdj,
+    noun:randNoun,
+  });
+  console.log(randAdj + " " + randNoun);
 });
 
 app.listen(port, () => {
