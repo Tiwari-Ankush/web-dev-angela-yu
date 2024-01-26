@@ -13,3 +13,4 @@ how to use all of these ejs tags?
 <%- include("<file name>")%>      >>INSERT ANOTHER EJS FILE
 
 
+
