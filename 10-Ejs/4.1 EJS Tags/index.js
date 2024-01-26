@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
     title: "EJS Tags",
     seconds: new Date().getSeconds(),
     items: ["apple", "banana", "cherry"],
-    htmlContent: "<strong>This is some strong text</strong>",
+    htmlContent: "<strong>My name is Ankush Tiwari</strong>",
   };
   res.render("index.ejs", data);
 });
