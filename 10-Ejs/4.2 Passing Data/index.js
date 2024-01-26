@@ -13,6 +13,7 @@ app.get("/", (req, res) => {
 
 app.post("/submit", (req, res) => {
     const name = req.body["fname"]+ req.body["lname"];
+    
 });
 
 app.listen(port, () => {
