@@ -13,4 +13,11 @@ how to use all of these ejs tags?
 <%- include("<file name>")%>      >>INSERT ANOTHER EJS FILE
 
 
+how we can parse data to ejs templates?
+
+explain in short, Ejs partials and layouts?
+
+how to access static files?
+
+
 
