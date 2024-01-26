@@ -1,0 +1,1 @@
+EJs => Embeded javascript
