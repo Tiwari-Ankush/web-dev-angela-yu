@@ -7,13 +7,12 @@ const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-
   res.render("index.ejs");
 });
 
 app.post("/submit", (req, res) => {
-    const name = req.body["fname"]+ req.body["lname"];
-    
+  const fullName = req.body["fName"] + " " + req.body["lName"];
+  res.render("index.ejs", { fullName: fullName });
 });
 
 app.listen(port, () => {
