@@ -7,6 +7,11 @@ react is basical;y a combination of Triplet (HTML CSS JS)
 ```ReactDOM.render(What to show ,  where to show it);```
 
 
+adding random image from Picsum insert below link as a value for variable:
+https://picsum.photos/200
+
+
+
 what is jsx, props, styling, components, babel, virtual DOM, state management using react hooks and useState, ES6, container in REACTjs?
 
 
