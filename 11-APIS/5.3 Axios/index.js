@@ -15,17 +15,17 @@ app.get("/", async (req, res) => {
   try {
     const response = await axios.get("https://bored-api.appbrewery.com/random");
     const result = response.data;
-    res.render("index.ejs", { data: result });
+    res.render("index.ejs", { data: result }); // rendered the index.ejs template and parsed the result as a data. 
   } catch (error) {
     console.error("Failed to make request:", error.message);
     res.render("index.ejs", {
       error: error.message,
-    });
+    }); // if any error then parsed that error in that webpage
   }
 });
 
 app.post("/", async (req, res) => {
-  console.log(req.body);
+
 
   // Step 2: Play around with the drop downs and see what gets logged.
   // Use axios to make an API request to the /filter endpoint. Making
