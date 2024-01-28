@@ -52,3 +52,7 @@ https://www.minifier.org/
 
 json viewer:
 https://jsonviewer.stack.hu/
+
+
+password decoder which is encoded by postman at basic level authentication;
+https://base64decode.org

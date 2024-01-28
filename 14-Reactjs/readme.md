@@ -17,4 +17,8 @@ default id of react application is "root". why?
 what is react-dom in reactjs?
 
 
+statements vs expressions in javascript?
+
+javascript expressions in jsx  and ES6 template literals?
+
 

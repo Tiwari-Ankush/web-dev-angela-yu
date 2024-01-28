@@ -1,5 +1,6 @@
  https://jsonviewer.stack.hu/
- 
+ https://base64decode.org
+
         request (get)
         >>>>>>>>>>>>>>>>>
 frontend **private Api**  server
@@ -31,4 +32,25 @@ what is axios?
 how to make server side api requests with axios?
 
 what is async and await in axios?
+
+what is api authentication?
+
+what is no or zero authentication?
+
+what is basic authentication?
+
+wha tis basic64 encoding?
+
+what is secret api?
+
+what is embarrassed score(emScore) in api?
+
+what is api key authentication with example?
+
+what is tocken based authentication with example?
+
+bearer token authentication?
+
+what is rest apis?
+
 
