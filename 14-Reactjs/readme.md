@@ -27,3 +27,8 @@ statements vs expressions in javascript?
 javascript expressions in jsx  and ES6 template literals?
 
 
+inline  styling for an react elements?
+
+what is react components?
+
+
