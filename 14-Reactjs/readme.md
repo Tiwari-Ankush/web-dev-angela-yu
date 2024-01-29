@@ -31,4 +31,6 @@ inline  styling for an react elements?
 
 what is react components?
 
+what about javascript import export and modules?
+
 
