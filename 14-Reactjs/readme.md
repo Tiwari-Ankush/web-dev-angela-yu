@@ -43,4 +43,6 @@ what is difference between html attributes and react props?
 how to map data to components? with example?
 
 
+javascript ES6 map/reduce/Filter with example?
+
 
