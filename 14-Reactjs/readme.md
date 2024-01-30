@@ -38,5 +38,7 @@ what about javascript import export and modules?
 
 what are react props? give with example?
 
+what is difference between html attributes and react props?
+
 
 
