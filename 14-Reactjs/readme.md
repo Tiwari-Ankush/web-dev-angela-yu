@@ -11,6 +11,8 @@ adding random image from Picsum insert below link as a value for variable:
 https://picsum.photos/200
 
 
+_When React sees an element with a lowercase name (e.g., <card>), it assumes it's an HTML built-in element. However, if the element starts with a capital letter (e.g., <Card>), React considers it a component and looks for the corresponding component definition._
+
 
 what is jsx, props, styling, components, babel, virtual DOM, state management using react hooks and useState, ES6, container in REACTjs?
 
@@ -32,5 +34,9 @@ inline  styling for an react elements?
 what is react components?
 
 what about javascript import export and modules?
+
+
+what are react props? give with example?
+
 
 
