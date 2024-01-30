@@ -40,5 +40,7 @@ what are react props? give with example?
 
 what is difference between html attributes and react props?
 
+how to map data to components? with example?
+
 
 
