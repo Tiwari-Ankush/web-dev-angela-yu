@@ -52,5 +52,5 @@ react  conditional rendering with the ternary operator and AND operator?
 
 what is single responsibiity principle in computer science study in short?
 
-"&&" operator in js?
+"&&" operator in js? and "&&" operator in react?
 
