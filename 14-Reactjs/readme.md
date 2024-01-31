@@ -46,3 +46,5 @@ how to map data to components? with example?
 javascript ES6 map/reduce/Filter with example?
 
 
+what is the javascript arrow function? give with example?
+
