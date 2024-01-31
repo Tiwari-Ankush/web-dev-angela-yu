@@ -50,3 +50,7 @@ what is the javascript arrow function? give with example?
 
 react  conditional rendering with the ternary operator and AND operator?
 
+what is single responsibiity principle in computer science study in short?
+
+"&&" operator in js?
+
