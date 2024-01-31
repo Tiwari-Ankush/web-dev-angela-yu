@@ -48,3 +48,5 @@ javascript ES6 map/reduce/Filter with example?
 
 what is the javascript arrow function? give with example?
 
+react  conditional rendering with the ternary operator and AND operator?
+
