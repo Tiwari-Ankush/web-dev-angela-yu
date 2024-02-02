@@ -16,22 +16,22 @@ To use it, after unzipping and cd'ing into the project directory, but before run
 
 Run:
 
-npm install -g npm-check-updates
+`npm install -g npm-check-updates`
 
 
 
 Then:
 
-ncu -u
+`ncu -u`
 
 
 
 Then:
 
-npm install
+`npm install`
 
 
 
 Then:
 
-npm start
+`npm start`
