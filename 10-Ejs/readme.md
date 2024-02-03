@@ -1,6 +1,5 @@
-Certainly! Below is a markdown file that includes both questions and answers along with examples:
 
-```markdown
+```
 # EJS (Embedded JavaScript) - Quick Guide
 
 ## How does EJS work?
