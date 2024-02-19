@@ -76,6 +76,7 @@ EJS partials and layouts are mechanisms to modularize and reuse code in EJS temp
 
 ## How to access static files?
 
+
 To access static files (like stylesheets, images, etc.), use the `express.static` middleware in your Express application.
 
 ```javascript
@@ -83,6 +84,7 @@ app.use(express.static("public"));
 ```
 
 This assumes your static files are in a folder named "public" in the root directory. Now, you can reference static files in your EJS templates:
+
 
 ```html
 <link rel="stylesheet" href="/styles/style.css">
