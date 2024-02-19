@@ -42,10 +42,12 @@ what are react props? give with example?
 what is difference between html attributes and react props?
 
 
+
 how to map data to components? with example?
 
 
 javascript ES6 map/reduce/Filter with example?
+
 
 
 what is the javascript arrow function? give with example?
@@ -58,6 +60,8 @@ what is single responsibiity principle in computer science study in short?
 
 
 "&&" operator in js? and "&&" operator in react?
+
+
 
 
 
