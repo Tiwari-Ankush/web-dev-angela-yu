@@ -17,7 +17,9 @@ how to format apis?
 
 what is endpoints?
 
+
 what is query parameters?
+
 
 what is multiple query parameters?
 
